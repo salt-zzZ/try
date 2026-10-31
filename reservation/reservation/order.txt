@@ -1,0 +1,1 @@
+date:1  interval:2  room:3  学生编号:1  学生姓名:张三  status:1

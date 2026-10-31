@@ -1,0 +1,255 @@
+ <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>司岚 CLARENCE · 10.17 | 时空中的绘旅人</title>
+<meta name="description" content="司岚 / Clarence 人生天地间" />
+<link rel="stylesheet" href="./css/try.css" />
+</head>
+
+<body id="top"> 
+    <!-- 加载页动画 -->
+    <div class="grain"></div>
+    <div class="loader">
+        <div class="loader__wave"></div>
+        <div class="loader__mark">
+            <div class="cn">司岚</div>
+            <div class="en">Clarence · 10.17</div>
+        </div>
+    </div>
+    <div class="progress" aria-hidden="true"></div>
+
+    <!-- 左页导航栏 -->
+    <header class="site-head">
+        <div class="site-head__in">
+            <a class="brand" href="#top"><b>司岚</b><i>Clarence</i></a>
+            <nav class="nav">
+                <a href="#story">序章</a>
+                <a href="#chars">角色</a>
+                <a href="#spec">资料</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首屏幕 -->
+     <section class="hero">
+        <div class="hero__media">
+            <img src="./img/banner.jpg" />
+        </div>
+        <div class="hero__tint"></div>
+        <div class="hero__inner">
+            <p class="hero__kicker">For His Birthday</p>
+            <h1 class="hero__name">司岚</h1>
+            <p class="hero__en">Clarence <em>· 10.17</em></p>
+            <div class="hero__meta">
+                <span>时空中的绘旅人</span>
+                <span>人生天地间</span>
+                <span>10 / 17</span>
+            </div>
+        </div>
+        <div class="scrollcue" aria-hidden="true">Scroll<i></i></div>
+     </section>
+
+     <!-- 轮播动画 —— 跑马灯？ -->
+     <div class="marquee">
+        <div class="marquee__track">
+            <div>
+                <span>HAPPY BIRTHDAY</span>
+                <span>10.17</span>
+                <span>司岚</span><span>CLARENCE</span>
+                <span>人生天地间</span>
+                <span>时空中的绘旅人</span>
+                <span>圣塞西尔</span><span>MEMERY</span>
+            </div>
+            <div>
+                <span>HAPPY BIRTHDAY</span>
+                <span>10.17</span>
+                <span>司岚</span><span>CLARENCE</span>
+                <span>人生天地间</span>
+                <span>时空中的绘旅人</span>
+                <span>圣塞西尔</span><span>MEMERY</span>
+            </div>
+            <div>
+                <span>HAPPY BIRTHDAY</span>
+                <span>10.17</span>
+                <span>司岚</span><span>CLARENCE</span>
+                <span>人生天地间</span>
+                <span>时空中的绘旅人</span>
+                <span>圣塞西尔</span><span>MEMERY</span>
+            </div>
+        </div>
+     </div>
+
+     <!-- 横幅影片 -->
+     <section class="banner rv-img" id="story">
+        <img src="./img/p2.jpg" alt="" />
+        <div class="banner__tint"></div>
+        <div class="banner__in">
+            <small>For All The Journeys</small>
+            <strong>时空中的绘旅人</strong>
+            <p>FOR THE TRUTH · FOR THE FUTURE · FOR HIM</p>
+            <span class="banner__play">
+                <i aria-hidden="true"></i>Play Film · 10.17</span>
+        </div>
+        <a class="banner__hit" href="#trailer"></a>
+     </section>
+
+     <!-- 影片弹出 -->
+     <div class="film" id="trailer" role="dialog" aria-modal="true">
+        <a class="film__back" href="#story" aria-label="关闭影片"></a>
+        <div class="film__box">
+            <a class="film__close" href="#story">Close<i></i></a>
+            <div class="film__stage">
+                <video src="./img/video.mp4" poster="./img/p2.jpg"
+                  controls playsinline preload="metadata"></video>
+            </div>
+            <p class="film__note">Clarence · My Life Recording · 10.17</p>
+        </div>
+     </div> 
+
+      <!-- 角色切换 -->
+      <section class="chars" id="chars">
+        <div class="chars__in">
+            <input type="radio" name="char" id="c1" checked />
+            <input type="radio" name="char" id="c2" />
+            <input type="radio" name="char" id="c3" />
+            <input type="radio" name="char" id="c4" />
+            <input type="radio" name="char" id="c5" />
+            <div class="chars__body">
+                <div class="chars__head">
+                    <h2 class="chars__title"><small>Characters</small>在世界的另一边</h2>
+                    <p class="chars__tip">点击切换世界线 · 可用方向键</p>
+                </div>
+                <div class="tabs" role="tablist">
+                    <label for="c1">会长大人</label>
+                    <label for="c2">冕下</label>
+                    <label for="c3">猎鹰</label>
+                    <label for="c4">风之灵</label>
+                    <label for="c5">神选者</label>
+                </div>
+                <div class="panels">
+            <!-- 会长 -->
+             <article class="panel panel--1">
+                <div class="panel__fig">
+                    <img class="stand" src="./img/cc5d409ba0cd0c2015b465c8547aaeeb.jpg" alt="" />
+                </div>
+                <div class="panel__info">
+                <div class="idx">01</div>
+                <p class="alias">司岚 <em>Clarence</em></p>
+                <h3>会长大人</h3>
+                <p class="role">圣塞西尔学院 · 学生会长</p>
+                <p>圣塞西尔学院的学生会长，也是学院里堪称恐怖的存在。法律系直博生、学院助教，同时参与海外高校联合培养项目。
+                    自幼天资过人，是旁人眼中德智体美全面发展的天才少年；因家人常年不在家，早早养成独立自律、凡事制定计划的性格。
+                    童年在昏暗防空洞里钻研设计、制作模型，落下高度近视；求学期间深耕法律领域，以极致理性对待学业与工作，
+                    成为学生会长后，做事一丝不苟、公平严苛。</p>
+                <div class="panel__facts"><span>法律系直博</span><span>学院助教</span><span>高度近视</span><span>计划至上</span></div>    
+                </div>
+             </article>
+             <!-- 冕下 -->
+             <article class="panel panel--2">
+                <div class="panel__fig">
+                    <img class="arched" src="./img/mianxia.jpg" alt="" />
+                </div>
+                <div class="panel__info">
+                    <div class="idx">02</div>
+                    <p class="alias">司岚 <em>The Sovereign</em></p>
+                    <h3>冕下</h3>
+                    <p class="role">法师塔 · 塔主</p>
+                    <p>童年历经苦难，被至亲售卖，在魔药与生死边缘挣扎。长大后目睹冰蝶吞噬大陆、生灵涂炭，亲手揭开法师是冰蝶容器的残酷真相；
+                        为了守护大陆与主角，主动将冰蝶封印在自己体内，甘愿承受无尽痛苦。他一手建立法师塔，联手各方力量谋求生机，
+                        明明看透无数人的宿命，却依旧尽力为他人减轻苦难，最终为了守护主角与世界，甘愿坠入时空裂隙，背负无尽孤寂，把生的希望留给他人。</p>
+                    <div class="panel__facts"><span>冰蝶容器</span><span>法师塔建立者</span><span>坠入裂隙</span></div>
+                </div>
+             </article>
+             <!-- 猎鹰 -->
+              <article class="panel panel--3">
+                <div class="panel__fig">
+                    <img class="arched" src="./img/lieyin.jpg" alt="" />
+                </div>
+                <div class="panel__info">
+                    <div class="idx">03</div>
+                    <p class="alias">司岚 <em>The Falcon</em></p>
+                    <h3>猎鹰</h3>
+                    <p class="role">末世 · 独行者</p>
+                    <p>因为突如其来的意外，让他在幼时就丧失了双亲。因为身上对动物特别的吸引力，经常会吸引来沙虫,从而招来祸患。
+                        好在一位名为安惜涵的女子出手救下了他，并成为他的老师，教会他在末世生存的技能。但命运作怪，他的体质再一次引来灾祸，
+                        让自己的老师在一次意外中丧命。从此，他独来独往。</p>
+                    <div class="panel__facts"><span>幼年失怙</span><span>沙漠中の猎鹰</span><span>独来独往</span></div>
+                </div>
+              </article>
+              <!-- 风之灵 -->
+               <article class="panel panel--4">
+                <div class="panel__fig">
+                    <img class="arched" src="./img/fenzhilin.jpg" alt="" />
+                </div>
+                <div class="panel__info">
+                    <div class="idx">04</div>
+                    <p class="alias">司岚 <em>Wind Spirit</em></p>
+                    <h3>风之灵</h3>
+                    <p class="role">灵界 · 第一任版主</p>
+                    <p>他是灵界中的第一任版主，对应羽蛇，拥有控制海上风水的能力。
+                        在灾难来临时从不会提前告知，家园被破坏。风之灵带领百姓搭建巴别塔来祭祀天神。
+                        但人力终究赶不上灾难，只能让剩下的百姓迁移到水下，等候灵界重置、第二任版主的出现。</p>
+                    <div class="panel__facts"><span>对应羽蛇</span><span>执掌风水</span><span>巴别塔</span></div>
+                </div>
+               </article>
+               <!-- 神选者 -->
+                <article class="panel panel--5">
+                     <div class="panel__fig">
+                        <img class="arched" src="./img/c285ec2a9c0df6fc7cf4c44aa8c72515.jpg" alt="" />
+                     </div>
+                     <div class="panel__info">
+                        <div class="idx">05</div>
+                        <p class="alias">司岚 <em>The Chosen</em></p>
+                        <h3>神选者</h3>
+                        <p class="role">帝国 · 收割者</p>
+                        <p>因自身对情感的敏锐程度与下手的果决，被帝国选中，成为帝国内负责收割星球的负责人之一。
+                            长久目睹一个个星球的毁灭与家破人亡，他想找机会离开帝国，但自身的情感已被帝国控制，唯一的破解之法只有杀死自己。
+                            本以为是得来解脱，但死去的只有初代司岚——帝国已克隆出一个又一个司岚，在筛选过后培养出下一个神选者。收割仍在继续...</p>
+                        <div class="panel__facts"><span>收割星球</span><span>情感被控</span><span>克隆轮回</span></div>
+                     </div>
+                </article>
+                </div>
+            </div>
+        </div>
+      </section> 
+
+
+       <!-- 底部 -->
+        <section class="spec" id="spec">
+            <div class="spec__in">
+                <div class="spec__logo rv">
+                    <span class="big">CLARENCE</span>
+                    <span class="small">司岚 · 10.17</span>
+                    <p class="tag">天秤座 · 圣塞西尔学院</p>
+                    <img class="spec__sign" src="./img/qianmin.jpg" alt="" />
+                </div>
+                <dl class="spec__table rv">
+                    <div class="spec__row"><dt>作品</dt><dd>《时空中的绘旅人》</dd></div>
+                    <div class="spec__row"><dt>角色</dt><dd>司岚 <em>Clarence</em></dd></div>
+                    <div class="spec__row"><dt>生日</dt><dd>10 月 17 日</dd></div>
+                    <div class="spec__row"><dt>星座</dt><dd>天秤座</dd></div>
+                    <div class="spec__row"><dt>身份</dt><dd>学生会长 / 冕下 / 猎鹰 / 风之灵 / 神选者</dd></div>
+                    <div class="spec__row"><dt>主题</dt><dd>人生天地间</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- 根目录 -->
+         <footer class="footer">
+            <div class="footer__in">
+                <div class="footer__mark">
+                    <b>司岚</b>
+                    <span>Clarence · For His Birthday · 10.17</span>
+                </div>
+                <nav class="footer__links">
+                    <a href="#top">回到顶部</a>
+                    <a href="#story">序章</a>
+                    <a href="#chars">角色</a>
+                    <a href="#spec">资料</a>
+                </nav>
+            </div>
+         </footer>
+        </body>
+        </html>
